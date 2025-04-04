@@ -26,7 +26,7 @@ const RoomList = () => {
     
     return(
         <div>
-            <h2>Rooms List</h2>
+            <h2>Rooms</h2>
             {rooms?.hotels?.map((room, index) => (
                 <div className = "roomsName" key={room.id}>
                     {console.log("rooms", room.name)}
